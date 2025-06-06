@@ -40,6 +40,14 @@ header {
     padding-left: 21;
 }
 
+main.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
 .logo-header {
     padding-right: 64px;
 }
@@ -116,9 +124,6 @@ nav .menu {
 .container-slide {
     position: relative;
     height: 100%;
-}
-
-.container-slide {
     margin: 0;
     padding: 0;
 }
@@ -126,6 +131,7 @@ nav .menu {
 .swiper {
     width: 380px;
     height: 220px;
+     border-radius: 9px;
 }
 
 .swiper-slide {
@@ -136,6 +142,7 @@ nav .menu {
     align-items: center;
     flex-direction: column;
     cursor: pointer;
+  
 }
 
 .swiper-slide img {
@@ -144,6 +151,13 @@ nav .menu {
     height: 324px;
     object-fit: cover;
     border-radius: 9px;
+}
+
+.swiper-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 27px;
 }
 
 .texto{

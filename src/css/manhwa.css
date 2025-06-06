@@ -1,0 +1,199 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      text-decoration: none;
+    }
+
+    body {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+      background: linear-gradient(to right, rgba(91, 83, 146, 1), rgba(16, 8, 69, 1));
+    }
+
+   header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+      background-image: url('../images/image-header-manhwa.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+       width: 412px;
+      height: 256px;
+
+    }
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .header-apresentacao {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 67px;
+      color: rgba(206, 202, 202, 1);
+    }
+
+    .logo-header {
+      padding-right: 64px;
+    }
+
+    .logo-header img {
+      width: 54px;
+      height: 43px;
+    }
+
+    nav .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      list-style: none;
+    }
+
+    .menu a {
+      color: rgba(206, 202, 202, 1);
+      font-weight: 700;
+      font-size: 16px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 48px 49px;
+    }
+
+    .manhwa-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .manhwa-title p {
+      color: rgba(206, 202, 202, 1);
+      font-size: 32px;
+    }
+
+    #manhwa-icon {
+      font-size: 50px;
+      color: rgba(0, 0, 0, 1);
+    }
+
+    .content-manhwa a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+      padding-top: 30px;
+    }
+
+    .content-manhwa img {
+      width: 220px;
+      height: 294px;
+    }
+
+    .content-manhwa a p {
+      color: rgba(206, 202, 202, 1);
+      font-size: 32px;
+    }
+
+    /* Swiper Section */
+    section.conteudo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 32px;
+      flex-direction: column;
+    }
+
+    .conteudo p{
+        display: flex;
+        justify-content: center;
+        color: rgba(206, 202, 202, 1);
+        font-size: 20px;
+        padding-bottom: 12px;
+        padding-right: 180px;
+    }
+
+    .swiper {
+      width: 90%;
+      max-width: 412px;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      width: 112px;
+      height: 159px;
+      object-fit: cover;
+      border-radius: 9px;
+      display: block;
+    }
+
+    .swiper-slide a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .swiper-slide a:hover {
+      text-decoration: none;
+      color: inherit;
+    }
+
+     .nome-obra{
+      margin-top: 10px;
+      color: white;
+      font-size: 8px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding-left: 27px;
+    }
+
+    footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(6, 4, 5, 1);
+    width: 412px;
+    height: 154px;
+}
+
+.agradecimento-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(206, 202, 202, 1);
+    font-size: 20px;
+    padding-left:20px;
+}

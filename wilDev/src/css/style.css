@@ -1,0 +1,139 @@
+body{
+    background-color: aqua;
+    fontfont-family: "Poppins", sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+    gap: 80px;
+}
+
+header > img{
+    width: 160px;
+    height: 160px;
+    border-radius: 90px;
+    outline: 3px solid rgb(2, 2, 2);
+}
+
+header > .personal-title{
+    display: flex;
+    gap: 8px;
+    background: linear-gradient(to right, rgb(91, 93, 94), rgb(27, 69, 117));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+main > .card-hero{
+    width: 80%;
+    height: 160px;
+    background-color: brown;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-image: url(../image/mustang.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main > .card-hero > .hero-content{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   gap: 12px;
+   padding-right: 20px;
+   
+
+}
+
+main > .card-hero > .hero-content h2{
+    color: #ffff;
+    font-size: 28px;
+    line-height: 44px;
+}
+
+main > .card-hero > .hero-content a{
+    background: linear-gradient(to right, rgb(95, 95, 65), rgb(239, 247, 121));
+    color: black;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+
+
+.card-course{
+    width: 80%;
+    height: 160px;
+    background-color: brown;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(122, 122, 120), rgb(239, 247, 121, 0.2)), url("../image/ford-mustang-gt-performance-mt6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 20px;
+}
+
+.card-course h1{
+    
+}
+
+.card-course a{
+    background: linear-gradient(to right, rgb(95, 95, 65), rgb(239, 247, 121));
+    color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.card-product{
+    width: 80%;
+    height: 160px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(122, 122, 120), rgb(239, 247, 121, 0.2)), url("../image/mercedesFelipe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    gap: 20px;
+
+}
+
+.card-product a{
+    background: linear-gradient(to right, rgb(95, 95, 65), rgb(239, 247, 121));
+    color: black;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+
+ 
